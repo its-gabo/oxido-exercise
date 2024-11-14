@@ -1,6 +1,8 @@
-import OpenAI from "openai";
-import { configDotenv } from "dotenv";
+import { generateHtmlFromArticle, readFile } from "./utils/index.js";
 
-configDotenv();
+const main = async () => {
+  const article = readFile("./artykul.txt");
+  await generateHtmlFromArticle(article);
+};
 
-const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+main();
