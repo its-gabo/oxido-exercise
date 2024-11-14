@@ -6,7 +6,7 @@ Zadanie polega na stworzeniu aplikacji w Pythonie lub JavaScript, która łączy
 
 Projekt używa NodeJS w wersji 21.7.1.
 
-Jeśli używasz Windowsa, pobierz `nvm`, a następnie zainstaluj odpowiednią wersję NodeJS.
+Jeśli używasz innej wersji NodeJs, pobierz `nvm`, a następnie zainstaluj odpowiednią wersję jego.
 
 ```bash
 # Instalacja NodeJS
