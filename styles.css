@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Gudea&family=Kanit&family=Palanquin&display=swap");
+
+:root {
+  --background: hsl(240 5.9% 10%);
+  --text-color: hsl(0 0% 83.1%);
+
+  --font-md: 1rem;
+  --font-lg: 1.75rem;
+  --font-xl: 2.5rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Palanquin", sans-serif;
+}
+
+html {
+  background-color: var(--background);
+  color: var(--text-color);
+}
+
+body {
+  margin: 3rem auto;
+  width: 80%;
+  max-width: 1024px;
+}
+
+p {
+  font-size: var(--font-md);
+}
+
+h1 {
+  font-size: var(--font-xl);
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  font-family: "Kanit", sans-serif;
+}
+
+h2 {
+  font-size: var(--font-lg);
+  margin: 1rem auto;
+  margin-top: 2rem;
+  font-weight: 600;
+  font-family: "Gudea", sans-serif;
+}
+
+figure {
+  margin: 1.25rem auto;
+  width: fit-content;
+}
+
+blockquote {
+  margin-top: 2rem;
+}
+
+blockquote p {
+  font-style: italic;
+}
